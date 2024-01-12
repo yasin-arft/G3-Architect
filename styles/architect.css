@@ -1,0 +1,27 @@
+/* variable */
+
+:root {
+  --primary: #ff900e;
+  --secondary: #131313;
+  --text: #727272;
+  --text-deep: #424242;
+}
+
+/* default */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+}
+
+/* resuable */
