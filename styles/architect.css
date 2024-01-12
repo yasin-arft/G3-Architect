@@ -26,7 +26,8 @@ body {
 
 /* resuable */
 
-.container {
+.container,
+main {
   max-width: 147rem;
   padding: 0 1.5rem;
   margin: auto;
@@ -114,4 +115,27 @@ nav li a {
 .banner-img img {
   width: 100%;
   border-radius: 8px;
+}
+
+/* team section */
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 7.5rem;
+  padding: 8.5rem;
+}
+
+.team > div {
+  flex: 1;
+}
+
+.team-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+
+.team-img img {
+  width: 100%;
 }
