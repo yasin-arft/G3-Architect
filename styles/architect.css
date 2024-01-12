@@ -138,6 +138,7 @@ nav li a {
 
 .team-img img {
   width: 100%;
+  border-radius: 8px;
 }
 
 .team-info .section-title {
