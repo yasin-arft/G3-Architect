@@ -139,3 +139,13 @@ nav li a {
 .team-img img {
   width: 100%;
 }
+
+.team-info .section-title {
+  width: 80%
+}
+.team-info .light {
+  color: var(--text);
+}
+.team-info .primary {
+  color: var(--primary);
+}
