@@ -109,9 +109,11 @@ nav li a {
   font-size: 6.4rem;
   text-transform: capitalize;
 }
+
 .banner-img {
   padding: 4.5rem 0;
 }
+
 .banner-img img {
   width: 100%;
   border-radius: 8px;
@@ -126,7 +128,7 @@ nav li a {
   padding: 8.5rem;
 }
 
-.team > div {
+.team>div {
   flex: 1;
 }
 
@@ -144,9 +146,47 @@ nav li a {
 .team-info .section-title {
   width: 80%
 }
+
 .team-info .light {
   color: var(--text);
+  font-weight: 500;
 }
+
 .team-info .primary {
   color: var(--primary);
+}
+
+/* facts section */
+
+.facts {
+  padding: 60px 0;
+}
+
+.facts-info {
+  width: 50%;
+}
+
+.facts-cards-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.facts-cards-container .card {
+  text-align: center;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  padding: 4.5rem 3.5rem;
+}
+
+.facts-cards-container .card-stats {
+  padding-top: 1px;
+  color: var(--text-deep);
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.facts-cards-container .card-title {
+  color: var(--text);
+  font-size: 20px;
+  font-weight: 600;
 }

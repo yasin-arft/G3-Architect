@@ -1,6 +1,7 @@
 /* X large device */
 @media screen and (max-width: 1400px) {
-  .container {
+  .container,
+  main {
     max-width: 1170px;
   }
 }
@@ -10,7 +11,8 @@
 
 /* medium device */
 @media screen and (max-width: 992px) {
-  .container {
+  .container,
+  main {
     max-width: 950px;
   }
 
