@@ -1,8 +1,18 @@
 /* X large device */
 @media screen and (max-width: 1400px) {
+
   .container,
   main {
     max-width: 1170px;
+  }
+
+  .facts-cards-container .card {
+    padding: 3.5rem 2.5rem;
+  }
+
+  .facts-cards-container {
+    gap: 6rem;
+    padding: 0px 3rem;
   }
 }
 
@@ -11,6 +21,7 @@
 
 /* medium device */
 @media screen and (max-width: 992px) {
+
   .container,
   main {
     max-width: 950px;
@@ -23,10 +34,19 @@
   .team-info .section-title {
     width: auto;
   }
+
+  .facts-info {
+    width: 100%;
+  }
+
+  .facts-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* small device */
 @media screen and (max-width: 768px) {
+
   nav,
   nav>ul,
   .team {
@@ -61,5 +81,8 @@
 
   .team {
     padding: 0;
+  }
+  .facts-cards-container {
+    grid-template-columns: 1fr;
   }
 }

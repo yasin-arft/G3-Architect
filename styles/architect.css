@@ -167,8 +167,10 @@ nav li a {
 }
 
 .facts-cards-container {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10rem;
+  padding: 0 5rem;
 }
 
 .facts-cards-container .card {
