@@ -2,7 +2,8 @@
 @media screen and (max-width: 1400px) {
 
   .container,
-  main {
+  main,
+  footer {
     max-width: 1170px;
   }
 
@@ -23,7 +24,8 @@
 @media screen and (max-width: 992px) {
 
   .container,
-  main {
+  main,
+  footer {
     max-width: 950px;
   }
 
@@ -42,8 +44,7 @@
   .facts-cards-container {
     grid-template-columns: repeat(2, 1fr);
   }
-  .sponsor-img-container img {
-  }
+
 }
 
 /* small device */
@@ -85,9 +86,11 @@
   .team {
     padding: 0;
   }
+
   .facts-cards-container {
     grid-template-columns: 1fr;
   }
+
   .sponsor-info {
     width: 100%;
   }
