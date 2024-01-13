@@ -15,6 +15,19 @@
     gap: 6rem;
     padding: 0px 3rem;
   }
+
+  .feature-img .badge {
+    width: 300px;
+    padding: 3.5rem 3rem;
+  }
+
+  .feature-img .badge h4 {
+    font-size: 5rem;
+  }
+
+  .feature-img .badge p {
+    font-size: 2rem;
+  }
 }
 
 /* large device */
@@ -53,14 +66,44 @@
   nav,
   nav>ul,
   .team,
+  .features,
   .sponsor-img-container {
     flex-direction: column;
+  }
+
+  .features {
+    gap: 5rem;
+  }
+
+  .feature-content .card {
+    padding: 2rem;
+  }
+
+  .features {
+    padding: 2rem;
+  }
+
+  .feature-img img {
+    margin-left: 0;
+  }
+
+  .feature-img .badge {
+    width: 100%;
+    bottom: 5rem;
+    left: 0;
   }
 }
 
 /* mobile device */
 
 @media screen and (max-width: 576px) {
+
+  .team,
+  .features,
+  .facts,
+  .sponsors {
+    padding: 3rem 0;
+  }
 
   .btn-primary {
     padding: 1.5rem 2rem;
@@ -81,10 +124,6 @@
 
   .banner-info .section-title {
     font-size: 4rem;
-  }
-
-  .team {
-    padding: 0;
   }
 
   .facts-cards-container {
