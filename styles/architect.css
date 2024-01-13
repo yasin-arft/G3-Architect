@@ -54,6 +54,7 @@ main {
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
   transition: all .5s;
 }
 
@@ -211,4 +212,5 @@ nav li a {
 
 .sponsor-img-container img {
   max-width: 350px;
+  filter: grayscale(100%);
 }
